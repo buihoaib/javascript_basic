@@ -1,0 +1,33 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Basic</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js" defer></script>
+    <script type="text/javascript" src="main.js" defer></script>
+</head>
+
+<body>
+    <h1>My Grocery Shopping Cart</h1>
+
+    <section id="user-prompt">
+        <p>
+            ITEM'S TYPE: <input id="type" type="text" value="" name="type"></input><br />
+        </p>
+        <p>
+            QUANTITY: <input id="quantity" type="number" value="" name="quantity"></input><br />
+        </p>
+        <button onclick="addItem()">ADD TO CART</button>
+    </section>
+
+    <aside>
+        <button onclick="showCart()">SHOW SHOPPING CART</button>
+        <p>*Note: click on an item to delete it from shopping cart</p>
+        <ul id="shopping-cart" class="show"></ul>
+    </aside>
+
+</body>
+
+</html>

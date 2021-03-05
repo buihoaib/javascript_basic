@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    padding: 10pt;
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    background-color: lightgray;
+    text-align: center;
+    margin: 20pt 20%;
+    padding: 20pt 10%;
+    border: 2pt solid black;
+}
+
+button {
+    padding: 10pt;
+}
+
+aside {
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+    margin: 20pt 20%;
+    padding: 20pt 10%;
+}
+
+li {
+    list-style-type: none;
+    border: 1pt dotted black;
+}
